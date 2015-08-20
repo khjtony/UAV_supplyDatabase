@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - supply_database@localhost" uuid="d852a371-6a39-46c6-b5f8-14ed97063f0e">
+    <database-info product="MySQL" version="5.6.26-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="supply_database"/>
+    <table name="supply_item" schema="" catalog="supply_database" type="TABLE">
+      <column name="item_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="digi_id" sqlType="CHAR" precision="30" scale="0" nullable="true" jdbcType="1"/>
+      <column name="category" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="create_time" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="modified_time" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="amount" sqlType="SMALLINT" precision="5" scale="0" nullable="true" jdbcType="5"/>
+      <column name="description" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="image" sqlType="BLOB" precision="65535" scale="0" nullable="true" jdbcType="-4"/>
+      <column name="location" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="package" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
+      <column name="MountingType" sqlType="ENUM" precision="13" scale="0" nullable="false" jdbcType="1"/>
+      <column name="Size" sqlType="VARCHAR" precision="64" scale="0" nullable="true" jdbcType="12"/>
+      <column name="digi_URL" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
+      <column name="voltage" sqlType="DECIMAL" precision="5" scale="2" nullable="true" jdbcType="3"/>
+      <column name="current" sqlType="DECIMAL" precision="5" scale="2" nullable="true" jdbcType="3"/>
+      <column name="price" sqlType="DECIMAL" precision="5" scale="2" nullable="true" jdbcType="3"/>
+      <primary-key name="PRIMARY" columns="item_id"/>
+      <index name="digi_id" unique="true" columns="digi_id"/>
+    </table>
+  </data-source>
+</component>
