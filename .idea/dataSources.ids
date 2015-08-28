@@ -7,6 +7,17 @@
     </database-info>
     <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
     <schema name="" catalog="supply_database"/>
+    <table name="category_list" schema="" catalog="supply_database" type="TABLE">
+      <column name="category_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="category_name" sqlType="CHAR" precision="32" scale="0" nullable="false" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="category_ID"/>
+    </table>
+    <table name="header_name" schema="" catalog="supply_database" type="TABLE">
+      <column name="header_ID" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="header_name" sqlType="CHAR" precision="32" scale="0" nullable="false" jdbcType="1"/>
+      <primary-key name="PRIMARY" columns="header_ID"/>
+      <index name="unique_header_name" unique="true" columns="header_name"/>
+    </table>
     <table name="supply_item" schema="" catalog="supply_database" type="TABLE">
       <column name="item_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="digi_id" sqlType="CHAR" precision="30" scale="0" nullable="true" jdbcType="1"/>
