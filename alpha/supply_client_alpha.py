@@ -180,7 +180,6 @@ class SupplyAppAlpha(QWidget):
             sqlcur.execute("USE supply_database")
             sqlcur.execute("SELECT category_name FROM category_list")
             self.category_name = [category_name[0] for (category_name) in sqlcur]
-            # TODO: update table
             # SetRowCount
             self.category_table.setColumnCount(1)
             # SetColumnCount
@@ -215,7 +214,6 @@ class SupplyAppAlpha(QWidget):
             sqlcur.execute("USE supply_database")
             sqlcur.execute("SHOW COLUMNS FROM supply_item")
             self.header_list = [header_name[0] for (header_name) in sqlcur]
-            # TODO: update table
         except:
             # TODO: connection failed exception
             print("Exception in method_update_header!")
@@ -250,7 +248,6 @@ class SupplyAppAlpha(QWidget):
         item_table_model = SupplyItemModel(self, self.item_list, self.header_list)
         self.item_table.setModel(item_table_model)
         self.item_table.resizeColumnsToContents()
-        # TODO:update Qtablewidget
         self.sqlconn.close()
         # except:
         #     pass
@@ -286,11 +283,8 @@ class SupplyAppAlpha(QWidget):
     # TODO: The problem is,  if every click needs an update, there should be a class to record selection status.
     @Slot()
     def action_view_update(self):
-        # TODO: update table
         self.method_update_category()
-        # TODO: update item list
         self.method_update_list()
-        # TODO: update view
         return
 
     @Slot()

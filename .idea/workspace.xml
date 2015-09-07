@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$for_test.coverage" NAME="for_test Coverage Results" MODIFIED="1440566010737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$insertTest.coverage" NAME="insertTest Coverage Results" MODIFIED="1439799859591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$firstGUI.coverage" NAME="firstGUI Coverage Results" MODIFIED="1439802342412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
-    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$digiCrawler.coverage" NAME="digiCrawler Coverage Results" MODIFIED="1440778610053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$digiCrawler.coverage" NAME="digiCrawler Coverage Results" MODIFIED="1441242714398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$bsTest.coverage" NAME="bsTest Coverage Results" MODIFIED="1440778606490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$supply_client_alpha.coverage" NAME="supply_client_alpha Coverage Results" MODIFIED="1440778631040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alpha" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$tableTest.coverage" NAME="tableTest Coverage Results" MODIFIED="1440687806653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
@@ -91,7 +91,7 @@
     <favorites_list name="UAV_supplyDatabase" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.51770914">
+    <splitter split-orientation="horizontal" split-proportion="0.49471298">
       <split-first>
         <leaf>
           <file leaf-file-name="_pydev_execfile.py" pinned="false" current-in-tab="false">
@@ -143,17 +143,17 @@
           <file leaf-file-name="supply_client_alpha.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/alpha/supply_client_alpha.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42184153">
-                  <caret line="186" column="67" selection-start-line="186" selection-start-column="67" selection-end-line="186" selection-end-column="67" />
+                <state vertical-scroll-proportion="0.21856287">
+                  <caret line="282" column="6" selection-start-line="282" selection-start-column="6" selection-end-line="282" selection-end-column="6" />
                   <folding>
                     <element signature="e#188#203#0" expanded="true" />
                     <element signature="e#405#1432#0" expanded="false" />
-                    <marker date="1440722215606" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-                    <marker date="1440722215606" expanded="true" signature="8055:8069" placeholder="SELECT heade..header_name..." />
-                    <marker date="1440722215606" expanded="true" signature="8055:8080" placeholder="SELECT COLUM..supply_item..." />
-                    <marker date="1440722215606" expanded="true" signature="8904:8929" placeholder="SELECT * FRO..supply_item..." />
-                    <marker date="1440722215606" expanded="true" signature="9074:9117" placeholder="SELECT * FRO..supply_item..." />
-                    <marker date="1440722215606" expanded="true" signature="10949:11010" placeholder="..." />
+                    <marker date="1441243080386" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
+                    <marker date="1441243080386" expanded="true" signature="8022:8036" placeholder="SELECT heade..header_name..." />
+                    <marker date="1441243080386" expanded="true" signature="8022:8047" placeholder="SELECT COLUM..supply_item..." />
+                    <marker date="1441243080386" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
+                    <marker date="1441243080386" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
+                    <marker date="1441243080386" expanded="true" signature="10758:10819" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -176,9 +176,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#24#50#0" expanded="true" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -190,11 +188,9 @@
           <file leaf-file-name="digiCrawler.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Crawler/digiCrawler.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.69164884">
-                  <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#24#50#0" expanded="true" />
-                  </folding>
+                <state vertical-scroll-proportion="0.13173653">
+                  <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -220,9 +216,9 @@
         <option value="$PROJECT_DIR$/simple_insert/tableTest.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d852a371-6a39-46c6-b5f8-14ed97063f0e/console.sql" />
         <option value="$PROJECT_DIR$/simple_insert/secondGUI.py" />
-        <option value="$PROJECT_DIR$/alpha/supply_client_alpha.py" />
         <option value="$PROJECT_DIR$/Crawler/bsTest.py" />
         <option value="$PROJECT_DIR$/Crawler/digiCrawler.py" />
+        <option value="$PROJECT_DIR$/alpha/supply_client_alpha.py" />
       </list>
     </option>
   </component>
@@ -302,7 +298,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,6 +333,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,7 +345,7 @@
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Python.supply_client_alpha">
+  <component name="RunManager" selected="Python.digiCrawler">
     <configuration default="false" name="secondGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -637,8 +633,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.supply_client_alpha" />
-        <item index="1" class="java.lang.String" itemvalue="Python.digiCrawler" />
+        <item index="0" class="java.lang.String" itemvalue="Python.digiCrawler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.supply_client_alpha" />
         <item index="2" class="java.lang.String" itemvalue="Python.bsTest" />
         <item index="3" class="java.lang.String" itemvalue="Python.secondGUI" />
         <item index="4" class="java.lang.String" itemvalue="Python.tableTest" />
@@ -669,18 +665,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1604" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14054404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15302013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51409394" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29015544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37583894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13825503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33557048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1599741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1704698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14248705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29015544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1599741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33825505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -689,7 +686,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4032258" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -747,25 +743,25 @@
           <folding>
             <element signature="e#188#203#0" expanded="true" />
             <element signature="e#405#1432#0" expanded="false" />
-            <marker date="1440722215606" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8069" placeholder="SELECT heade..header_name..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8080" placeholder="SELECT COLUM..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="8904:8929" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="9074:9117" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="10949:11010" placeholder="..." />
+            <marker date="1441243080386" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8036" placeholder="SELECT heade..header_name..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8047" placeholder="SELECT COLUM..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="10758:10819" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -827,25 +823,25 @@
           <folding>
             <element signature="e#188#203#0" expanded="true" />
             <element signature="e#405#1432#0" expanded="false" />
-            <marker date="1440722215606" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8069" placeholder="SELECT heade..header_name..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8080" placeholder="SELECT COLUM..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="8904:8929" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="9074:9117" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="10949:11010" placeholder="..." />
+            <marker date="1441243080386" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8036" placeholder="SELECT heade..header_name..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8047" placeholder="SELECT COLUM..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="10758:10819" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -907,25 +903,25 @@
           <folding>
             <element signature="e#188#203#0" expanded="true" />
             <element signature="e#405#1432#0" expanded="false" />
-            <marker date="1440722215606" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8069" placeholder="SELECT heade..header_name..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8080" placeholder="SELECT COLUM..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="8904:8929" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="9074:9117" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="10949:11010" placeholder="..." />
+            <marker date="1441243080386" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8036" placeholder="SELECT heade..header_name..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8047" placeholder="SELECT COLUM..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="10758:10819" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -987,12 +983,12 @@
           <folding>
             <element signature="e#188#203#0" expanded="true" />
             <element signature="e#405#1432#0" expanded="false" />
-            <marker date="1440722215606" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8069" placeholder="SELECT heade..header_name..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8080" placeholder="SELECT COLUM..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="8904:8929" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="9074:9117" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="10949:11010" placeholder="..." />
+            <marker date="1441243080386" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8036" placeholder="SELECT heade..header_name..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8047" placeholder="SELECT COLUM..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="10758:10819" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1104,26 +1100,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..header_name">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..category_list">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1135,14 +1131,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1202,25 +1198,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="e#24#50#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alpha/supply_client_alpha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42184153">
-          <caret line="186" column="67" selection-start-line="186" selection-start-column="67" selection-end-line="186" selection-end-column="67" />
+        <state vertical-scroll-proportion="0.21856287">
+          <caret line="282" column="6" selection-start-line="282" selection-start-column="6" selection-end-line="282" selection-end-column="6" />
           <folding>
             <element signature="e#188#203#0" expanded="true" />
             <element signature="e#405#1432#0" expanded="false" />
-            <marker date="1440722215606" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8069" placeholder="SELECT heade..header_name..." />
-            <marker date="1440722215606" expanded="true" signature="8055:8080" placeholder="SELECT COLUM..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="8904:8929" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="9074:9117" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1440722215606" expanded="true" signature="10949:11010" placeholder="..." />
+            <marker date="1441243080386" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8036" placeholder="SELECT heade..header_name..." />
+            <marker date="1441243080386" expanded="true" signature="8022:8047" placeholder="SELECT COLUM..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
+            <marker date="1441243080386" expanded="true" signature="10758:10819" placeholder="..." />
           </folding>
         </state>
       </provider>

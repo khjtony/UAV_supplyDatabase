@@ -57,7 +57,12 @@ class DigiCrawler(QWidget):
         if len(url) == 0:
             return
 
-        fname = url.split('/')[-1]
+        if (len(url)<10):
+        # url is file name already
+            fname = url
+        else:
+        # url is url
+            fname = url.split('/')[-1]
 
         if os.path.isfile(fname):
             # file exits
