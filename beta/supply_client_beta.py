@@ -18,6 +18,7 @@ import wget
 
 # some global
 SOFTWARE_VERSION = 0.3
+MYSQL_DATABASE = 'supply_database'
 
 class SupplyItemModel(QAbstractTableModel):
     def __init__(self, parent, mylist, header, *args):
@@ -53,6 +54,67 @@ class SupplyItemModel(QAbstractTableModel):
             self.mylist.reverse()
         self.emit(SIGNAL("layoutChanged()"))
 
+class MysqlTools(mysql):
+    """
+    This is Mysqltool box. This class can help supply client to maintain completely of database
+    when user want to insert a new item, this class receives the item information and check if
+    remote database has all the columns. If yes, just generate sql command and send it to the database.
+    If not, this class will insert a new column first and insert this item.
+    """
+    # TODO: need exception handler
+    def __init__(self, raw_url='localhost', raw_user='default', raw_password='default'):
+        self.url = raw_url
+        self.username = raw_user
+        self.password = raw_password
+
+        self.columns = []
+        self.values = []
+        self.conn = mysql.connect(host=self.url,
+                                  user=self.username,
+                                  password=self.password)
+        self.cur = self.conn.cursor()
+
+
+    def setup(self, raw_url, raw_user, raw_password):
+        self.url = raw_url
+        self.username = raw_user
+        self.password = raw_password
+
+    def test_connection(self):
+        '''
+        check connectivity
+        :return:
+        '''
+        connectivity = False
+
+
+
+        return connectivity
+
+
+    def update_columns(self):
+        '''
+        update local self.columns list to the newest version
+        need to check frequently because there may be multiple users at the same time
+        :return:
+        '''
+        pass
+
+    def get_item(self):
+        '''
+        get all the information of one item, and filter out any None columns, only show important
+        :return:
+        '''
+
+        pass
+
+    def insert_item(self, item):
+        # update columns
+        self.update_columns()
+        # check if database has all the necessary columns
+        # YES: insert item
+        # NO: insert column first, then insert item
+        pass
 
 class MainTab(QTabWidget):
     def __init__(self):
@@ -95,7 +157,7 @@ class MainTab(QTabWidget):
         login_layout.addWidget(label_url,0,0)
         login_layout.addWidget(self.text_url,0,1)
         login_layout.addWidget(self.btn_connect,0,2)
-        login_layout.addWidget(label_user, 1,0)
+        login_layout.addWidget(label_user, 1, 0)
         login_layout.addWidget(self.text_user, 1, 1)
         login_layout.addWidget(self.btn_save, 1, 2)
         login_layout.addWidget(label_password, 2,0)
@@ -272,6 +334,7 @@ class SupplyAppBeta(QWidget):
 
     def initUI(self):
         self.setWindowTitle('Supply Management Suite -- Beta v{}'.format(SOFTWARE_VERSION))
+        self.setWindowIcon(QIcon('panIAC.png'))
         self.resize(800, 600)
         self.init_tab()
         self.layout = QHBoxLayout()
