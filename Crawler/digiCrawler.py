@@ -24,7 +24,7 @@ class DigiCrawler(QWidget):
         self.url_text = QLineEdit()
         connect_btn = QPushButton("Craw")
         connect_btn.clicked.connect(self.action_craw)
-        exit_btn = QPushButton("exit")
+        exit_btn = QPushButton("Exit")
         exit_btn.clicked.connect(self.action_exit)
         layout.addWidget(self.url_text,0,0,0,5)
         layout.addWidget(connect_btn,0,6,0,1)
@@ -76,20 +76,24 @@ class DigiCrawler(QWidget):
         ptr.close()
         soup = bs(source, 'html.parser')
 
+        big_table = soup.find("td", class_="attributes-table-main")
 
-        big_table = soup.find_all("td", "attributes-table-main")
-        item = big_table[0].find_all("th")
-        self.list_name = [name.string for name in item]
+        for item in big_table.find_all("tr"):
+            self.list_name.append(item.th.string)
+            if item.td.a is None:
+                self.list_value.append(item.td.string)
+            else:
+                self.list_value.append(item.td.a.get("href"))
 
-        value =big_table[0].find_all("td")
-        self.list_value = [name.string for name in value]
+        print(len(self.list_name))
+        print(len(self.list_value))
 
         # update table
-        row_count = len(item)
+        row_count = len(self.list_name)
         self.list_table.setRowCount(row_count)
         self.list_table.setColumnCount(2)
 
-        for index in range(len(item)):
+        for index in range(len(self.list_name)):
             self.list_table.setItem(index, 0, QTableWidgetItem(str(self.list_name[index])))
             self.list_table.setItem(index, 1, QTableWidgetItem(str(self.list_value[index])))
         self.list_table.resizeColumnsToContents()

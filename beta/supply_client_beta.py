@@ -54,67 +54,70 @@ class SupplyItemModel(QAbstractTableModel):
             self.mylist.reverse()
         self.emit(SIGNAL("layoutChanged()"))
 
-class MysqlTools(mysql):
-    """
-    This is Mysqltool box. This class can help supply client to maintain completely of database
-    when user want to insert a new item, this class receives the item information and check if
-    remote database has all the columns. If yes, just generate sql command and send it to the database.
-    If not, this class will insert a new column first and insert this item.
-    """
-    # TODO: need exception handler
-    def __init__(self, raw_url='localhost', raw_user='default', raw_password='default'):
-        self.url = raw_url
-        self.username = raw_user
-        self.password = raw_password
-
-        self.columns = []
-        self.values = []
-        self.conn = mysql.connect(host=self.url,
-                                  user=self.username,
-                                  password=self.password)
-        self.cur = self.conn.cursor()
-
-
-    def setup(self, raw_url, raw_user, raw_password):
-        self.url = raw_url
-        self.username = raw_user
-        self.password = raw_password
-
-    def test_connection(self):
-        '''
-        check connectivity
-        :return:
-        '''
-        connectivity = False
-
-
-
-        return connectivity
-
-
-    def update_columns(self):
-        '''
-        update local self.columns list to the newest version
-        need to check frequently because there may be multiple users at the same time
-        :return:
-        '''
-        pass
-
-    def get_item(self):
-        '''
-        get all the information of one item, and filter out any None columns, only show important
-        :return:
-        '''
-
-        pass
-
-    def insert_item(self, item):
-        # update columns
-        self.update_columns()
-        # check if database has all the necessary columns
-        # YES: insert item
-        # NO: insert column first, then insert item
-        pass
+#
+# class MysqlTools(mysql):
+#     """
+#     This is Mysqltool box. This class can help supply client to maintain completely of database
+#     when user want to insert a new item, this class receives the item information and check if
+#     remote database has all the columns. If yes, just generate sql command and send it to the database.
+#     If not, this class will insert a new column first and insert this item.
+#     """
+#     # TODO: need exception handler
+#     def __init__(self):
+#         raw_url = 'localhost'
+#         raw_user = 'default'
+#         raw_password = 'default'
+#         self.url = raw_url
+#         self.username = raw_user
+#         self.password = raw_password
+#
+#         self.columns = []
+#         self.values = []
+#         self.conn = mysql.connect(host=self.url,
+#                                   user=self.username,
+#                                   password=self.password)
+#         self.cur = self.conn.cursor()
+#
+#     def setup(self, raw_url, raw_user, raw_password):
+#         self.url = raw_url
+#         self.username = raw_user
+#         self.password = raw_password
+#
+#     def test_connection(self):
+#         '''
+#         check connectivity
+#         :return:
+#         '''
+#         connectivity = False
+#
+#
+#
+#         return connectivity
+#
+#
+#     def update_columns(self):
+#         '''
+#         update local self.columns list to the newest version
+#         need to check frequently because there may be multiple users at the same time
+#         :return:
+#         '''
+#         pass
+#
+#     def get_item(self):
+#         '''
+#         get all the information of one item, and filter out any None columns, only show important
+#         :return:
+#         '''
+#
+#         pass
+#
+#     def insert_item(self, item):
+#         # update columns
+#         self.update_columns()
+#         # check if database has all the necessary columns
+#         # YES: insert item
+#         # NO: insert column first, then insert item
+#         pass
 
 class MainTab(QTabWidget):
     def __init__(self):
@@ -127,6 +130,7 @@ class MainTab(QTabWidget):
         self.init_tab_query()
         self.init_tab_log()
         self.init_tab_about()
+        self.isConnected = False
 
     def init_tab_login(self):
         self.tab_login = QWidget()
@@ -149,6 +153,7 @@ class MainTab(QTabWidget):
         label_password.setBuddy(self.text_password)
 
         self.btn_connect = QPushButton('Connect')
+        self.btn_connect.clicked.connect(self.action_login_connect)
         self.btn_save = QPushButton('Save Login')
         self.btn_exit = QPushButton('Exit')
         self.btn_exit.clicked.connect(self.action_exit)
@@ -215,6 +220,7 @@ class MainTab(QTabWidget):
 
         # insert, clear all
         btn_insert = QPushButton('Insert')
+        btn_insert.clicked.connect(self.action_insert)
         btn_insert_clearall = QPushButton('Clear All')
         btn_insert_clearall.clicked.connect(self.action_insert_clearAll)
 
@@ -271,6 +277,17 @@ class MainTab(QTabWidget):
         supply_app.exec_()
 
     @Slot()
+    def action_login_connect(self):
+        try:
+            self.conn = mysql.connect(host=self.text_url.text(), user=self.text_user.text(), password=self.text_password.text())
+            self.cur = self.conn.cursor()
+            self.isConnected = True
+        except:
+            self.isConnected = False
+            print("Connecting failed")
+            print("Login info is: {}, {}, {}".format(self.text_url.text(), self.text_user.text(), self.text_password.text()))
+
+    @Slot()
     def action_exit(self):
         supply_app.quit()
 
@@ -301,19 +318,22 @@ class MainTab(QTabWidget):
         soup = bs(source, 'html.parser')
 
 
-        big_table = soup.find_all("td", "attributes-table-main")
-        item = big_table[0].find_all("th")
-        self.insert_item_name = [name.string for name in item]
+        big_table = soup.find("td", class_="attributes-table-main")
+        self.insert_item_name = []
+        self.insert_item_value = []
 
-        value =big_table[0].find_all("td")
-        self.insert_item_value = [name.string for name in value]
-
+        for item in big_table.find_all("tr"):
+            self.insert_item_name.append(str(item.th.string).replace(' ', '_').replace('/', '_').replace(',', '_').lower())
+            if item.td.a is None:
+                self.insert_item_value.append(str(item.td.string).replace(' ', '_').replace('/', '_').replace(',', '_').lower())
+            else:
+                self.insert_item_value.append(item.td.a.get("href"))
         # update table
-        row_count = len(item)
+        row_count = len(self.insert_item_name)
         self.table_insert.setRowCount(row_count)
         self.table_insert.setColumnCount(2)
 
-        for index in range(len(item)):
+        for index in range(row_count):
             self.table_insert.setItem(index, 0, QTableWidgetItem(str(self.insert_item_name[index])))
             self.table_insert.setItem(index, 1, QTableWidgetItem(str(self.insert_item_value[index])))
         self.table_insert.resizeColumnsToContents()
@@ -323,6 +343,51 @@ class MainTab(QTabWidget):
     def action_insert_clearAll(self):
         self.text_insert_url.clear()
         self.table_insert.clear()
+
+    @Slot()
+    def action_insert(self):
+        # check connection to mysql
+        if self.isConnected is False:
+            self.action_login_connect()
+        # check if input data is valid
+        if self.table_insert.rowCount() <= 0:
+            print("Insert error: Cannot insert blank item")
+            return
+
+        # check if columns are complete
+        insert_columns = self.insert_item_name
+        delta_columns = []
+        current_columns=[]
+        self.cur.execute("USE supply_database")
+        self.cur.execute("SHOW COLUMNS FROM supply_database.supply_item")
+        current_columns = [names[0].lower() for (names) in self.cur]
+        for title in insert_columns:
+            if title.lower() not in current_columns:
+                delta_columns.append(title.lower())
+        print(delta_columns)
+
+        # if not: add new columns
+        for title in delta_columns:
+            self.cur.execute("ALTER TABLE supply_database.supply_item ADD {} VARCHAR(200)".format(title.lower()))
+            print("{} has been added".format(title))
+
+        # Now the columns are:
+        self.cur.execute("SHOW COLUMNS FROM supply_database.supply_item")
+        print("now the columns are: {}".format([names[0] for (names) in self.cur]))
+        # if yes: goto insert
+        query = self.helper_insert_formater('supply_database.supply_item', self.insert_item_name)
+        # insert
+        print("self.insert_imte_value is : {}".format(tuple(self.insert_item_value)))
+        self.cur.execute(query, tuple(self.insert_item_value))
+
+        self.conn.commit()
+        pass
+
+    def helper_insert_formater(self, table, names):
+        query = "INSERT INTO {} ({}) VALUES ({})".format(table, ','.join(names), ','.join(["%s"]*len(names)))
+        print("The query: {} will be sent to mysql server".format(query))
+        return query
+
 
 
 class SupplyAppBeta(QWidget):

@@ -8,10 +8,10 @@ cursor = conn.cursor()
 nowtime = datetime.now()
 
 add_item = ("INSERT INTO supply_item "
-               "(catagory, create_time, MountingType) "
+               "(category, create_time, MountingType) "
                "VALUES (%s, %s, %s)")
 
-data_item = ('Regulator',nowtime,'N/A')
+data_item = ('Regulator', nowtime,'N/A')
 
 cursor.execute(add_item, data_item)
 

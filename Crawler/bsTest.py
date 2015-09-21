@@ -5,7 +5,7 @@ import re
 import os.path
 
 
-url = 'http://www.digikey.com/product-detail/en/MIC5205YM5%20TR/576-1262-6-ND/1770866'
+url = 'http://www.digikey.com/product-detail/en/52806-0410/WM5316-ND/2046766'
 # check if file exist
 fname = url.split('/')[-1]
 
@@ -22,15 +22,22 @@ ptr.close()
 soup = bs(source, 'html.parser')
 
 
-big_table = soup.find_all("td", "attributes-table-main")
+# big_table = soup.find_all("td", "attributes-table-main")
+# big_table = soup.find("table", class_="product-additional-info")
+main_table = soup.find("td", class_="attributes-table-main")
+for item in main_table.find_all("tr"):
+    print(item.th.string)
+    if item.td.a is None:
+        print(item.td.string)
+    else:
+        print(item.td.a.get("href"))
+# item = big_table[0].find_all("tr")
+# print([lol.string for lol in item])
 
-
-item = big_table[0].find_all("th")
-# print(item)
-
-for star in soup.find("td", "attributes-table-main"):
+# for star in soup.find("td", "attributes-table-main"):
     # value = star.find_all("td")
-    print()
-    print(star)
+    # print("FOUND ONE\n")
+    # print(star)
+    # print([name.string for name in star])
 # print(value)
 
