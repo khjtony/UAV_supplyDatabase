@@ -14,10 +14,11 @@ import os
 import sys
 import operator
 import wget
+import re
 
 
 # some global
-SOFTWARE_VERSION = 0.3
+SOFTWARE_VERSION = 0.4
 MYSQL_DATABASE = 'supply_database'
 
 class SupplyItemModel(QAbstractTableModel):
@@ -268,13 +269,24 @@ class MainTab(QTabWidget):
         tab_layout.setAlignment(Qt.AlignVCenter)
 
         self.tab_about.setLayout(tab_layout)
-        QLayout.setAlignment(tab_layout,Qt.AlignCenter)
+        QLayout.setAlignment(tab_layout, Qt.AlignCenter)
         self.addTab(self.tab_about, 'About')
         pass
 
     def run(self):
         self.show()
         supply_app.exec_()
+
+    def helper_column_preprocessor(self, name):
+        # print('The input string is: ', name, end='')
+        name = name.replace(' ', '_')
+        for letter in name:
+            if not re.match('[0-9a-zA-Z_]', letter):
+                name = name.replace(letter, '')
+        name = name.lower()
+        # print(' After process the string is: ', name)
+        return name
+
 
     @Slot()
     def action_login_connect(self):
@@ -323,9 +335,9 @@ class MainTab(QTabWidget):
         self.insert_item_value = []
 
         for item in big_table.find_all("tr"):
-            self.insert_item_name.append(str(item.th.string).replace(' ', '_').replace('/', '_').replace(',', '_').lower())
+            self.insert_item_name.append(self.helper_column_preprocessor(str(item.th.string)))
             if item.td.a is None:
-                self.insert_item_value.append(str(item.td.string).replace(' ', '_').replace('/', '_').replace(',', '_').lower())
+                self.insert_item_value.append(self.helper_column_preprocessor(str(item.td.string)))
             else:
                 self.insert_item_value.append(item.td.a.get("href"))
         # update table

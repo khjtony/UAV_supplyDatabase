@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcb03f7e-1f4a-4b1b-9e8d-27aba03e1cce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/bsTest.py" afterPath="$PROJECT_DIR$/Crawler/bsTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler/digiCrawler.py" afterPath="$PROJECT_DIR$/Crawler/digiCrawler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/insertTest.py" afterPath="$PROJECT_DIR$/insertTest.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beta/supply_client_beta.py" afterPath="$PROJECT_DIR$/beta/supply_client_beta.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -21,18 +18,19 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$supply_client_alpha.coverage" NAME="supply_client_alpha Coverage Results" MODIFIED="1442791736610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alpha" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$bsTest.coverage" NAME="bsTest Coverage Results" MODIFIED="1442712193584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
-    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$secondGUI.coverage" NAME="secondGUI Coverage Results" MODIFIED="1442791174067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
-    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$digiCrawler.coverage" NAME="digiCrawler Coverage Results" MODIFIED="1442789741325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$classTest.coverage" NAME="classTest Coverage Results" MODIFIED="1442798022931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$for_test.coverage" NAME="for_test Coverage Results" MODIFIED="1440566010737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$forTest.coverage" NAME="forTest Coverage Results" MODIFIED="1441643105953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beta" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$tableTest.coverage" NAME="tableTest Coverage Results" MODIFIED="1442791182635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$reTest.coverage" NAME="reTest Coverage Results" MODIFIED="1443599059654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$insertTest.coverage" NAME="insertTest Coverage Results" MODIFIED="1442791554389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$supply_client_beta.coverage" NAME="supply_client_beta Coverage Results" MODIFIED="1443599210213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beta" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$supply_client_alpha.coverage" NAME="supply_client_alpha Coverage Results" MODIFIED="1442791736610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alpha" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$secondGUI.coverage" NAME="secondGUI Coverage Results" MODIFIED="1442791174067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
+    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$digiCrawler.coverage" NAME="digiCrawler Coverage Results" MODIFIED="1442789741325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Crawler" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$firstGUI.coverage" NAME="firstGUI Coverage Results" MODIFIED="1442791178125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
     <SUITE FILE_PATH="coverage/UAV_supplyDatabase$thirdGUI.coverage" NAME="thirdGUI Coverage Results" MODIFIED="1442791169513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_insert" />
-    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$insertTest.coverage" NAME="insertTest Coverage Results" MODIFIED="1442791554389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UAV_supplyDatabase$supply_client_beta.coverage" NAME="supply_client_beta Coverage Results" MODIFIED="1442798474016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beta" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -97,35 +95,12 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="1770866" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Crawler/1770866">
-                <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-                  <state />
-                </provider>
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.94950604">
-                    <caret line="1388" column="109" selection-start-line="1388" selection-start-column="109" selection-end-line="1388" selection-end-column="109" />
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="UAV_supplyDatabase" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5521212">
+    <splitter split-orientation="horizontal" split-proportion="0.66545457">
       <split-first>
         <leaf>
           <file leaf-file-name="secondGUI.py" pinned="false" current-in-tab="false">
@@ -141,13 +116,14 @@
           <file leaf-file-name="supply_client_beta.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/beta/supply_client_beta.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22593583">
-                  <caret line="351" column="38" selection-start-line="351" selection-start-column="38" selection-end-line="351" selection-end-column="38" />
+                <state vertical-scroll-proportion="0.54278076">
+                  <caret line="332" column="67" selection-start-line="332" selection-start-column="67" selection-end-line="332" selection-end-column="67" />
                   <folding>
                     <element signature="e#228#255#0" expanded="true" />
-                    <marker date="1442796921635" expanded="true" signature="12770:12829" placeholder="ALTER TABLE supply_database.supply_item..." />
-                    <marker date="1442796921635" expanded="true" signature="13502:13516" placeholder="INSERT INTO ..." />
-                    <marker date="1442796921635" expanded="true" signature="13502:13533" placeholder="INSERT INTO ..." />
+                    <element signature="e#533#1562#0" expanded="false" />
+                    <marker date="1443599132406" expanded="true" signature="13099:13158" placeholder="ALTER TABLE supply_database.supply_item..." />
+                    <marker date="1443599132406" expanded="true" signature="13831:13845" placeholder="INSERT INTO ..." />
+                    <marker date="1443599132406" expanded="true" signature="13831:13862" placeholder="INSERT INTO ..." />
                   </folding>
                 </state>
               </provider>
@@ -195,13 +171,26 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="reTest.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/reTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.19251336">
+                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="supply_client_beta.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/beta/supply_client_beta.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+                  <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
                   <folding>
                     <element signature="e#228#255#0" expanded="true" />
+                    <marker date="1443599132406" expanded="true" signature="13099:13158" placeholder="ALTER TABLE supply_database.supply_item..." />
+                    <marker date="1443599132406" expanded="true" signature="13831:13845" placeholder="INSERT INTO ..." />
+                    <marker date="1443599132406" expanded="true" signature="13831:13862" placeholder="INSERT INTO ..." />
                   </folding>
                 </state>
               </provider>
@@ -219,10 +208,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="insertTest.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="insertTest.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/insertTest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42780748">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding>
                     <element signature="e#23#69#0" expanded="true" />
@@ -272,8 +261,9 @@
         <option value="$PROJECT_DIR$/Crawler/bsTest.py" />
         <option value="$PROJECT_DIR$/Crawler/digiCrawler.py" />
         <option value="$PROJECT_DIR$/insertTest.py" />
-        <option value="$PROJECT_DIR$/beta/supply_client_beta.py" />
         <option value="$PROJECT_DIR$/classTest.py" />
+        <option value="$PROJECT_DIR$/reTest.py" />
+        <option value="$PROJECT_DIR$/beta/supply_client_beta.py" />
       </list>
     </option>
   </component>
@@ -353,6 +343,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches">
         <subPane />
       </pane>
@@ -418,12 +409,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="supply_item&#9;null&#9;null&#10;keymap&#9;ACTION&#9;ChangeKeymap&#10;setting&#9;ACTION&#9;Database.Settings&#10;run&#9;ACTION&#9;ActivateRunToolWindow" />
@@ -436,24 +426,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.supply_client_beta">
-    <configuration default="false" name="tableTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple_insert" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="UAV_supplyDatabase" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_insert/tableTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="insertTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -522,6 +494,24 @@
       <module name="UAV_supplyDatabase" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beta/supply_client_beta.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="reTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="UAV_supplyDatabase" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -715,19 +705,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tableTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.insertTest" />
-      <item index="2" class="java.lang.String" itemvalue="Python.supply_client_alpha" />
-      <item index="3" class="java.lang.String" itemvalue="Python.classTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.supply_client_beta" />
+      <item index="0" class="java.lang.String" itemvalue="Python.insertTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.supply_client_alpha" />
+      <item index="2" class="java.lang.String" itemvalue="Python.classTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.supply_client_beta" />
+      <item index="4" class="java.lang.String" itemvalue="Python.reTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.supply_client_beta" />
-        <item index="1" class="java.lang.String" itemvalue="Python.classTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.supply_client_alpha" />
-        <item index="3" class="java.lang.String" itemvalue="Python.insertTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tableTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.reTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.classTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.supply_client_alpha" />
+        <item index="4" class="java.lang.String" itemvalue="Python.insertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -754,20 +744,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51409394" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.49270833" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.49479166" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29015544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37583894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13825503" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.5072917" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29015544" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289597" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27272728" sideWeight="0.5052083" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1599741" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33825505" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -776,6 +765,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4032258" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289597" sideWeight="0.49583334" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -816,29 +806,15 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alpha/supply_client_alpha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#188#203#0" expanded="true" />
-            <element signature="e#405#1432#0" expanded="false" />
-            <marker date="1441641138010" expanded="true" signature="6527:6566" placeholder="SELECT categ..category_list..." />
-            <marker date="1441641138010" expanded="true" signature="8838:8863" placeholder="SELECT * FRO..supply_item..." />
-            <marker date="1441641138010" expanded="true" signature="9008:9051" placeholder="SELECT * FRO..supply_item..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -893,14 +869,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -955,14 +931,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1088,38 +1064,38 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..header_name">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..category_list">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a55fd56c/d852a371-6a39-46c6-b5f8-14ed97063f0e/supply_database..supply_item">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1171,42 +1147,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/1770866">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94950604">
-          <caret line="1388" column="109" selection-start-line="1388" selection-start-column="109" selection-end-line="1388" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Crawler/digiCrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beta/forTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#22#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python34/Lib/site-packages/mysql/connector/connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3328877">
           <caret line="397" column="0" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,6 +1176,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler/1770866">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94950604">
+          <caret line="1388" column="109" selection-start-line="1388" selection-start-column="109" selection-end-line="1388" selection-end-column="109" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#23#69#0" expanded="true" />
+            <marker date="1442796505429" expanded="true" signature="266:383" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/forTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#22#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/classTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1242,23 +1217,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beta/supply_client_beta.py">
+    <entry file="file://$PROJECT_DIR$/Crawler/digiCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="145" column="40" selection-start-line="145" selection-start-column="40" selection-end-line="145" selection-end-column="40" />
+          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
           <folding>
-            <element signature="e#228#255#0" expanded="true" />
+            <element signature="e#24#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertTest.py">
+    <entry file="file://$PROJECT_DIR$/reTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42780748">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.19251336">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beta/supply_client_beta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54278076">
+          <caret line="332" column="67" selection-start-line="332" selection-start-column="67" selection-end-line="332" selection-end-column="67" />
           <folding>
-            <element signature="e#23#69#0" expanded="true" />
-            <marker date="1442796505429" expanded="true" signature="266:383" placeholder="INSERT INTO ..." />
+            <element signature="e#228#255#0" expanded="true" />
+            <element signature="e#533#1562#0" expanded="false" />
+            <marker date="1443599132406" expanded="true" signature="13099:13158" placeholder="ALTER TABLE supply_database.supply_item..." />
+            <marker date="1443599132406" expanded="true" signature="13831:13845" placeholder="INSERT INTO ..." />
+            <marker date="1443599132406" expanded="true" signature="13831:13862" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
